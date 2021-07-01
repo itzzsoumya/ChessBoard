@@ -1,0 +1,51 @@
+.chessboard {
+    width: 1600px;
+    height: 1600px;
+    padding: 60px;
+    margin-left: auto;
+    margin-top: 7%;
+   
+    margin-right: auto;
+    border: 70px solid brown;
+    background-color: lightcoral;
+    
+
+   
+}
+.white {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: lightpink;
+    border-radius: 60px;
+    font-size:170px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+    animation: solution 1.5s ease-in-out infinite alternate;
+}
+.white:hover {
+    background: transparent;
+    color: black;
+    background-color: greenyellow;
+    transition-duration: 0.25s;
+   
+}
+.black {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: lightyellow;
+    font-size:160px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+    border-radius: 60px;
+    
+}
+.black:hover {
+    background: transparent;
+    color: black;
+    background-color: greenyellow;
+    transition-duration: 0.25s;
+}
